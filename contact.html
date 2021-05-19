@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+</head>
+<body>
+    <!-- firstname=XX&lastname=XX&email=XX&tel=XX&message=XX&channel=XX -->
+    <form action="#" method="POST" class="form-example">
+        <div class="form-example">
+            <label for="firstname">Prénom: </label>
+            <input type="text" name="firstname" id="firstname">
+          </div><br/>
+
+        <div class="form-example">
+          <label for="lastname">Nom: </label>
+          <input type="text" name="lastname" id="lastname" required>
+        </div><br/>
+
+        <div class="form-example">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+        </div><br/>
+
+        <div class="form-example">
+            <label for="phone">Téléphone: </label>
+            <input type="number" name="phone" id="phone" required>
+        </div><br/>
+
+        <div class="form-example">
+            <label for="contact">Préference de contact</label>
+            <select name="contact" id="contact">
+                <option value="email" selected>Email</option>
+                <option value="phone">Téléphone</option>                       
+            </select>
+        </div><br/>
+
+        <div class="form-example">
+            <p>Message: </p>
+            <textarea name="message" id="message" rows="5" cols="50"></textarea>
+        </div>
+
+        <div class="form-example">
+            <input type="submit" value="Submit">
+        </div>
+      </form>
+</input>
+</body>
+</html>
